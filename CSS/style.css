@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "impact";
+    src: url("../assets/fuentes/impact.ttf");
+    font-family: "ISOCT3";
+    src: url("../assets/fuentes/ISOCT3.ttf");
+}
+/*general*/
+body{
+    background-color: black;
+    background-image: url(../assets/fondo-de-todo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    display: grid;
+    width: 100%;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+    ;
+    gap: 10px;
+}
+h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+h2{
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+h3{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.alineaTextCentro{
+    text-align: center;
+}
+.impactFuente{
+    font-family: "impact",sans-serif;
+}
+.isoFuente{
+    font-family: "ISOCT3",sans-serif;
+}
+/*header*/
+.navBar ul li a{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    font-family: "impact",regular;
+}
+.navBar ul li{
+    padding: 10px;
+    list-style: none;
+}
+.oculto{
+    opacity: 0;
+}
+.navBar ul{ 
+    gap: 30px;
+    display: flex;
+
+}
+header{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;/*espacio en el medio*/
+    grid-area: header;
+}
+
+/*main*/
+main{
+    grid-area: main;
+}
+main section div img{
+    height: 320px;
+}
+.imgBanner1{
+    background-image: url(../assets/banners/banner-index.jpg);
+}
+.imgBanner2{
+    background-image: url(../assets/banners/banner-tickets.jfif);
+}
+.imgBanner3{
+    background-image: url(../assets/banners/banner-line-up.jpg);
+}
+.imgBanner4{
+    background-image: url(../assets/banners/banner-historia.jpg);
+}
+.imgBanner5{
+    background-image: url(../assets/banners/banner-contacto.jpg);
+}
+.posTextBanner1{
+    position: relative;
+    bottom: 120px;
+    font-size: 27px;
+}
+
+.tamBanner{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 130px;
+    margin-bottom: 40px;
+}
+
+.imgNovedades1{
+    background-image: url(../assets/novedades-index/rock-fest-paris-2022.jpg);
+}
+.imgNovedades2{
+    background-image: url(../assets/novedades-index/mas-de-50-bandas.jpg);   
+}
+.imgNovedades3{
+    background-image: url(../assets/novedades-index/buenos-aires.jpg);
+}
+.tamImgNovedades{
+    width: 30%;
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.posNovedades{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.ticketsBorder{
+    display: flex;
+    justify-content: center;
+    gap: 30px 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.boxBorder{
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    height: 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 700px;
+}
+.boxBorder h2{
+    font-size: 45px;
+}
+.boxBorder1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-width: 2px;
+    width: 700px
+}
+.centrarTickets{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lineupFlex{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.marginLineup{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.centrtradoBandas{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+}
+.tamLogoBand a img{
+    height: 200px;
+}
+.historiaTexto{
+    font-size: 25px;
+    line-height:50px ;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.estiloFormulario{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 50px;
+    font-size: 30px;
+    align-items: center
+}
+.estiloFormulario fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+
+}
+
+/*footer*/
+footer{
+    margin-top: 90px;
+    grid-area: footer;
+}
+.FooterBar{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.FooterBar li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-family: "impact",regular;
+}
+
+.logoPublicidad a img{
+    height: 200px;
+}
+.logoPublicidad{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 768px)/*medida standar par tablet */
+{
+    /*general*/
+    .navBar{
+        display: none;/*prueba de como ucultar un navBar*/
+    }
+    /*index*/
+
+    .posNovedades{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .tamImgNovedades{
+        width: 768px;
+        background-size: cover;
+        height: 450px;
+    }
+    .tamP{
+        font-size: 25px;
+    }
+    .logoPublicidad a img{
+        height: 150px;
+    }
+
+    /*line-up*/
+    .lineupFlex{
+        display: flex;
+        flex-direction: column;
+    }
+    .oculto{
+        opacity: 1;
+    }
+    .marginLineup{
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    border-style: solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+    /*historia*/
+    .historiaTexto{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    /*contacto*/
+    .estiloFormulario{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        line-height: 50px;
+        font-size: 20px;
+        align-items: center
+    }
+    .estiloFormulario fieldset{
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        align-items: center;
+    
+    }
+    .FooterBar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        gap: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 576px)/*medida standar para celular*/
+{
+    /*general*/
+    header{
+        display: flex;
+        justify-content: center;
+    }
+    /*index*/
+    .logoBanOc{
+        display: none;
+    }
+    .tamBanner{
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        width: 576px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 150px;
+        margin-bottom: 40px;
+    }
+    .posTextBanner1{
+        display: flex;
+        flex-direction: column;
+        top: 20px;
+    }
+
+    .logoPublicidad a img{
+        height: 100px;
+    }
+    .tamImgNovedades{
+        width: 576px;
+        background-size: cover;
+        height: 450px;
+    }
+    .FooterBar{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    /*tickets*/
+    .textBanners2a5{
+        font-size: 100px;
+    }
+    .ticketsBorder{
+        display: flex;
+        justify-content: center;
+        gap: 20px 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+    .boxBorder{
+        border-style: solid;
+        border-width: 1px;
+        display: flex;
+        height: 250px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 540px;
+    }
+    .boxBorder h2{
+        font-size: 45px;
+    }
+    .boxBorder1{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        border-style: solid;
+        border-width: 1px;
+        width: 540px;
+    }
+    /*contacto*/
+    .estiloFormulario fieldset{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        align-items: center;
+    
+    }
+}
