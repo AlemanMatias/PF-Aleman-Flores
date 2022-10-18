@@ -5,9 +5,9 @@
 }
 @font-face{
     font-family: "impact";
-    src: url("../assets/fuentes/impact.ttf");
+    src: url("../assets/fuentes/impact.ttf") format('woff2');
     font-family: "ISOCT3";
-    src: url("../assets/fuentes/ISOCT3.ttf");
+    src: url("../assets/fuentes/ISOCT3.ttf") format('woff2');
 }
 /*general*/
 body{
@@ -102,6 +102,9 @@ main section div img{
     position: relative;
     bottom: 120px;
     font-size: 27px;
+}
+.navFont{
+    font-size: 30px;
 }
 
 .tamBanner{
@@ -254,11 +257,12 @@ footer{
 
 @media(max-width: 768px)/*medida standar par tablet */
 {
-    /*general*/
-    .navBar{
-        display: none;/*prueba de como ucultar un navBar*/
-    }
     /*index*/
+    .logoBanOc{
+        display: flex;
+        justify-content: center;
+    }
+    
 
     .posNovedades{
         margin-top: 10px;
