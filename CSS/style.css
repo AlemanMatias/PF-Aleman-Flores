@@ -61,9 +61,6 @@ h3{
     padding: 10px;
     list-style: none;
 }
-.oculto{
-    opacity: 0;
-}
 .navBar ul{ 
     gap: 30px;
     display: flex;
@@ -107,6 +104,9 @@ main section div img{
     font-size: 30px;
 }
 
+.oculto{
+    opacity: 0;
+}
 .tamBanner{
     background-attachment: fixed;
     background-position: center;
@@ -182,26 +182,16 @@ main section div img{
     justify-content: center;
     align-items: center;
 }
-.lineupFlex{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.marginLineup{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.centrtradoBandas{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    align-items: center;
-    gap: 30px;
-}
+
+
 .tamLogoBand a img{
     height: 200px;
+}
+.noneStyleList li{
+    list-style: none;
+}
+.noneStyleList li a{
+    text-decoration: none;
 }
 .historiaTexto{
     font-size: 25px;
@@ -254,7 +244,6 @@ footer{
     justify-content: center;
     margin-bottom: 20px;
 }
-
 @media(max-width: 768px)/*medida standar par tablet */
 {
     /*index*/
@@ -280,23 +269,11 @@ footer{
     .logoPublicidad a img{
         height: 150px;
     }
-
-    /*line-up*/
-    .lineupFlex{
-        display: flex;
-        flex-direction: column;
-    }
+    /*line-up************************************************/
     .oculto{
         opacity: 1;
     }
-    .marginLineup{
-    border-right-width: 0;
-    border-left-width: 0;
-    border-bottom-width: 0;
-    border-style: solid;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    }
+    /************************************************/
     /*historia*/
     .historiaTexto{
         margin-left: 20px;
