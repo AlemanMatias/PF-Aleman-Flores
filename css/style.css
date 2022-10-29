@@ -29,6 +29,9 @@ footer {
       color: white;
       font-size: 35px; }
 
+.logoPublicidad a img {
+  height: 200px; }
+
 .bannerIndex {
   background-image: url(../assets/banners/banner-index.jpg);
   background-attachment: fixed;
@@ -43,20 +46,30 @@ footer {
 .novedadesIndex h1 {
   font-family: 'Archivo Black', sans-serif; }
 
-.novedadesIndex div article h2 {
-  font-family: 'Archivo Black', sans-serif; }
-
-.novedadesIndex div article p {
-  font-family: 'Rajdhani', sans-serif; }
+.novedadesIndex div article {
+  height: 300px;
+  width: 30%; }
+  .novedadesIndex div article h2 {
+    font-family: 'Archivo Black', sans-serif; }
+  .novedadesIndex div article p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px; }
 
 .novedades1 {
-  background-image: url(../assets/novedades-index/rock-fest-paris-2022.jpg); }
+  background-image: url(../assets/novedades-index/rock-fest-paris-2022.jpg);
+  background-size: cover; }
 
 .novedades2 {
-  background-image: url(../assets/novedades-index/mas-de-50-bandas.jpg); }
+  background-image: url(../assets/novedades-index/mas-de-50-bandas.jpg);
+  background-size: cover; }
 
 .novedades3 {
-  background-image: url(../assets/novedades-index/buenos-aires.jpg); }
+  background-image: url(../assets/novedades-index/buenos-aires.jpg);
+  background-size: cover; }
+
+.textTicketsTitle {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 50px; }
 
 .bannerTickets {
   background-image: url(../assets/banners/banner-tickets.jfif);
@@ -69,17 +82,24 @@ footer {
     font-family: 'Archivo Black', sans-serif;
     font-size: 120px; }
 
-.ticketsInfo h1 {
-  font-family: 'Archivo Black', sans-serif; }
+.ticketsInfo div {
+  height: 250px;
+  width: 700px; }
+  .ticketsInfo div h2 {
+    margin-top: 20px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 45px; }
+  .ticketsInfo div p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px; }
 
-.ticketsInfo div div h2 {
-  font-family: 'Archivo Black', sans-serif; }
-
-.ticketsInfo div div p {
-  font-family: 'Rajdhani', sans-serif; }
-
-.ticketsInfo div h2 {
-  font-family: 'Archivo Black', sans-serif; }
+.pressInfo {
+  font-family: 'Archivo Black', sans-serif;
+  width: 600px;
+  height: 200px; }
+  .pressInfo h2 {
+    margin-top: 20px;
+    font-size: 45px; }
 
 .bannerLineUp {
   background-image: url(../assets/banners/banner-line-up.jpg);
@@ -114,6 +134,9 @@ footer {
   list-style: none; }
   .estiloLista li a {
     text-decoration: none; }
+
+.oculto {
+  opacity: 0; }
 
 .bannerHistoria {
   background-image: url(../assets/banners/banner-historia.jpg);

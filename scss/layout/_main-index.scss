@@ -19,11 +19,15 @@
     }
     div{
         article{
+            height: 300px;
+            width: 30%;
             h2{
                 @include tipo-arch-black;
+                
             }
             p{
-                @include tipo-radj;
+                @include tipo-radj; 
+                font-size: 20px;
             }
         }
     }
@@ -31,10 +35,13 @@
 
 .novedades1{
     background-image: url(../assets/novedades-index/rock-fest-paris-2022.jpg);
+    background-size: cover;
 }
 .novedades2{
     background-image: url(../assets/novedades-index/mas-de-50-bandas.jpg);
+    background-size: cover;
 }
 .novedades3{
     background-image: url(../assets/novedades-index/buenos-aires.jpg);
+    background-size: cover;
 }

@@ -1,3 +1,8 @@
+.textTicketsTitle{
+    @include tipo-arch-black;
+    font-size: 50px;
+}
+
 .bannerTickets{
     background-image: url(../assets/banners/banner-tickets.jfif);
     @include parllax-banner;
@@ -6,23 +11,29 @@
         font-size: 120px;
     }
 }
+
 .ticketsInfo{
-    h1{
-        @include tipo-arch-black;
-    }
-    div{
         div{
+            height: 250px;
+            width: 700px;
             h2{
+                margin-top: 20px;
                 @include tipo-arch-black;
+                font-size: 45px;
             }
             p{
                 @include tipo-radj;
+                font-size: 30px;
             }
         }
-    }
-    div{
-        h2{
-            @include tipo-arch-black;       
-        }
+}
+
+.pressInfo{
+    @include tipo-arch-black;
+    width: 600px;
+    height: 200px;
+    h2{
+        margin-top: 20px;
+        font-size: 45px;
     }
 }
