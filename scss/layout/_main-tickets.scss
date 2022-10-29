@@ -1,0 +1,28 @@
+.bannerTickets{
+    background-image: url(../assets/banners/banner-tickets.jfif);
+    @include parllax-banner;
+    p{
+        @include tipo-arch-black;
+        font-size: 120px;
+    }
+}
+.ticketsInfo{
+    h1{
+        @include tipo-arch-black;
+    }
+    div{
+        div{
+            h2{
+                @include tipo-arch-black;
+            }
+            p{
+                @include tipo-radj;
+            }
+        }
+    }
+    div{
+        h2{
+            @include tipo-arch-black;       
+        }
+    }
+}

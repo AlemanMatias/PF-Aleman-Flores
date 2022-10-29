@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Rajdhani:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -14,5 +15,132 @@ body {
 header li {
   list-style: none; }
   header li a {
+    font-family: 'Archivo Black', sans-serif;
     text-decoration: none;
-    color: lightblue; }
+    color: white;
+    font-size: 30px; }
+
+footer {
+  font-family: 'Archivo Black', sans-serif; }
+  footer section ul li {
+    list-style: none; }
+    footer section ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 35px; }
+
+.bannerIndex {
+  background-image: url(../assets/banners/banner-index.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 820px; }
+  .bannerIndex div p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 35px; }
+
+.novedadesIndex h1 {
+  font-family: 'Archivo Black', sans-serif; }
+
+.novedadesIndex div article h2 {
+  font-family: 'Archivo Black', sans-serif; }
+
+.novedadesIndex div article p {
+  font-family: 'Rajdhani', sans-serif; }
+
+.novedades1 {
+  background-image: url(../assets/novedades-index/rock-fest-paris-2022.jpg); }
+
+.novedades2 {
+  background-image: url(../assets/novedades-index/mas-de-50-bandas.jpg); }
+
+.novedades3 {
+  background-image: url(../assets/novedades-index/buenos-aires.jpg); }
+
+.bannerTickets {
+  background-image: url(../assets/banners/banner-tickets.jfif);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 820px; }
+  .bannerTickets p {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 120px; }
+
+.ticketsInfo h1 {
+  font-family: 'Archivo Black', sans-serif; }
+
+.ticketsInfo div div h2 {
+  font-family: 'Archivo Black', sans-serif; }
+
+.ticketsInfo div div p {
+  font-family: 'Rajdhani', sans-serif; }
+
+.ticketsInfo div h2 {
+  font-family: 'Archivo Black', sans-serif; }
+
+.bannerLineUp {
+  background-image: url(../assets/banners/banner-line-up.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 820px; }
+  .bannerLineUp p {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 120px; }
+
+.diaAndStage {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 50px; }
+
+.band2 {
+  font-family: 'Archivo Black', sans-serif; }
+  .band2 li h1 {
+    font-size: 80px; }
+  .band2 li h2 {
+    font-size: 50px; }
+
+.band3 {
+  font-family: 'Archivo Black', sans-serif; }
+  .band3 li h2 {
+    font-size: 50px; }
+  .band3 li h3 {
+    font-size: 30px; }
+
+.estiloLista li {
+  list-style: none; }
+  .estiloLista li a {
+    text-decoration: none; }
+
+.bannerHistoria {
+  background-image: url(../assets/banners/banner-historia.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 820px; }
+  .bannerHistoria p {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 120px; }
+
+.textHistoria {
+  font-size: 30px; }
+  .textHistoria p {
+    font-family: 'Rajdhani', sans-serif; }
+
+.bannerContacto {
+  background-image: url(../assets/banners/banner-contacto.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 820px; }
+  .bannerContacto p {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 120px; }
+
+.secForms h1 {
+  font-family: 'Archivo Black', sans-serif; }

@@ -1,0 +1,44 @@
+.bannerLineUp{
+    background-image: url(../assets/banners/banner-line-up.jpg);
+    @include parllax-banner;
+    p{
+        @include tipo-arch-black;
+        font-size: 120px;
+    }
+}
+.diaAndStage{
+    @include tipo-radj;
+    font-size: 50px;
+}
+
+.band2{
+    @include tipo-arch-black;
+    li{
+        h1{
+            font-size: 80px;
+        }
+        h2{
+            font-size: 50px;
+        }
+    }
+}
+.band3{
+    @include tipo-arch-black;
+    li{
+        h2{
+            font-size: 50px;
+        }
+        h3{
+            font-size: 30px;
+        }
+    }
+}
+.estiloLista{
+    li{
+        list-style: none;
+        a{
+            text-decoration: none;
+            
+        }
+    }
+}

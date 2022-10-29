@@ -1,0 +1,14 @@
+.bannerHistoria{
+    background-image: url(../assets/banners/banner-historia.jpg);
+    @include parllax-banner;
+    p{
+        @include tipo-arch-black;
+        font-size: 120px;
+    }
+}
+.textHistoria{
+    font-size: 30px;
+    p{
+        @include tipo-radj;
+    }
+}

@@ -1,0 +1,40 @@
+.bannerIndex{
+    background-image: url(../assets/banners/banner-index.jpg);
+    @include parllax-banner;
+    div{
+        img{
+
+        }
+    }
+    div{
+        p{
+            @include tipo-radj;
+            font-size: 35px;
+        }
+    }
+}
+.novedadesIndex{
+    h1{
+        @include tipo-arch-black;
+    }
+    div{
+        article{
+            h2{
+                @include tipo-arch-black;
+            }
+            p{
+                @include tipo-radj;
+            }
+        }
+    }
+}
+
+.novedades1{
+    background-image: url(../assets/novedades-index/rock-fest-paris-2022.jpg);
+}
+.novedades2{
+    background-image: url(../assets/novedades-index/mas-de-50-bandas.jpg);
+}
+.novedades3{
+    background-image: url(../assets/novedades-index/buenos-aires.jpg);
+}

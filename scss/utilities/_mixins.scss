@@ -1,0 +1,14 @@
+@mixin tipo-arch-black{
+    font-family: 'Archivo Black', sans-serif;
+}
+
+@mixin  tipo-radj{
+    font-family: 'Rajdhani', sans-serif;
+}
+@mixin parllax-banner {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 820px;
+}

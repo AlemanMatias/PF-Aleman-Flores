@@ -2,8 +2,10 @@ header{
     li{
         list-style: none;
         a{
+            @include tipo-arch-black;
             text-decoration: none;
-            color: lightblue;
+            color: rgb(255, 255, 255);
+            font-size: 30px;
         }
     }
 }
