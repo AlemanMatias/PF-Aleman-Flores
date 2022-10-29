@@ -30,7 +30,7 @@ footer {
       font-size: 35px; }
 
 .bannerIndex {
-  background-image: url(../assets/banners/banner-index.jpg);
+  background-image: url(../../assets/banners/banner-index.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
