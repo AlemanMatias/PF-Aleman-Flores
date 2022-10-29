@@ -2,11 +2,6 @@
     background-image: url(../assets/banners/banner-index.jpg);
     @include parllax-banner;
     div{
-        img{
-
-        }
-    }
-    div{
         p{
             @include tipo-radj;
             font-size: 35px;
