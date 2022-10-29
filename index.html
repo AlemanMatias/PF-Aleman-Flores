@@ -6,86 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./assets/logos/rock-fest-favicon.png">
 </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg impactFuente container-fluid m-0 p-0">
-                <div class="container-fluid">
-                    <a href="./index.html">
-                        <img class="animacion" src="./assets/logos/rock-fest-s.png" alt="">
-                    </a>
-                    <button class="navbar-toggler" type="button" style="background-color: #383838;" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button><!--barra de navegacion para responsive-->
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                        <ul class="navbar-nav navFont">
-                            <li class="nav-item animacion">
-                                <a class="nav-link active link-light" aria-current="page" href="./index.html">INICIO</a>
-                            </li>
-                            <li class="nav-item animacion">
-                                <a class="nav-link active link-light" aria-current="page" href="./pages/tickets.html">TICKETS</a>
-                            </li>
-                            <li class="nav-item animacion">
-                                <a class="nav-link active link-light" aria-current="page" href="./pages/lineup.html">LINE-UP</a>
-                            </li>
-                            <li class="nav-item animacion">
-                                <a class="nav-link active link-light" aria-current="page" href="./pages/historia.html">HISTORIA</a>
-                            </li>
-                            <li class="nav-item animacion">
-                                <a class="nav-link active link-light" aria-current="page" href="./pages/contacto.html">CONTACTO</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <div><a href="./index.html"><img src="./assets/logos/rock-fest-s.png" alt=""></a></div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">INICIO</a></li>
+                    <li><a href="./pages/tickets.html">TICKETS</a></li>
+                    <li><a href="./pages/lineup.html">LINE-UP</a></li>
+                    <li><a href="./pages/historia.html">HISTORIA</a></li>
+                    <li><a href="./pages/contacto.html">CONTACTO</a></li>
+                </ul>
             </nav>
         </header>
         <main>
-            <section class="imgBanner1 tamBanner"><!--banner principal-->
-                <div class="logoBanOc">
-                    <img src="./assets/logos/rock-fest-l.png" alt="">
+            <section><!--banner principal-->
+                <div>
+                    <img src="./assets/logos/rock-fest-l.png" alt=""><!--LOGO DE BANNER PRINCIPAL-->
                 </div>
-                <div class="alineaTextCentro isoFuente posTextBanner1">
+                <div>
                     <p>BUENOS AIRES 2023</p>
                     <p>MARZO 3-4-5</p>
                     <p>PARQUE DE LA CIUDAD</p>
                 </div>
             </section>
-            <section class="alineaTextCentro" ><!--novedades-->
-                <h1 class="alineaTextCentro impactFuente">NOVEDADES</h1>
-                <div class="posNovedades">
-                    <article class="imgNovedades1 tamImgNovedades ">
-                        <h2 class="impactFuente">REVIVI EL ROCK FEST PARIS 2022</h2>
-                        <p class="isoFuente tamP">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, deserunt, dolore dolorum pariatur corporis voluptatibus soluta consectetur </p>
+            <section><!--novedades-->
+                <h1>NOVEDADES</h1>
+                <div>
+                    <article>
+                        <h2>REVIVI EL ROCK FEST PARIS 2022</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, deserunt, dolore dolorum pariatur corporis voluptatibus soluta consectetur </p>
                     </article>
-                    <article class="imgNovedades2 tamImgNovedades">
-                        <h2 class="impactFuente">3 DIAS,MAS DE 50 BANDAS Y MUCHAS HISTORIAS PARA CONTAR</h2>
-                        <p class="isoFuente tamP">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat libero dolores, fuga nulla aliquid esse facere provident expedita quisquam iure</p>
+                    <article>
+                        <h2>3 DIAS,MAS DE 50 BANDAS Y MUCHAS HISTORIAS PARA CONTAR</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat libero dolores, fuga nulla aliquid esse facere provident expedita quisquam iure</p>
                     </article>
-                    <article class="imgNovedades3 tamImgNovedades">
-                        <h2 class="impactFuente">CONOCE BUENOS AIRES</h2>
-                        <p class="isoFuente tamP">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non voluptatem praesentium dolorum temporibus maiores nisi laboriosam quod vel eos, ulla </p>
+                    <article>
+                        <h2>CONOCE BUENOS AIRES</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non voluptatem praesentium dolorum temporibus maiores nisi laboriosam quod vel eos, ulla </p>
                     </article>
                 </div>   
             </section>
         </main>
         <footer>
             <section><!--sponsors-->
-                <h1 class="text-center impactFuente">INVITAN</h1>
-                <ul class="logoPublicidad">
-                    <li class="animacion"><a href="https://www.coca-cola.com.ar/" target="_blank"><img src="./assets/logos/coca-cola.png" alt=""></a></li>
-                    <li class="animacion"><a href="https://www.burgerking.com.ar/" target="_blank"><img src="./assets/logos/burger-king.png" alt=""></a></li>
-                    <li class="animacion"><a href="https://www.samsung.com/ar/" target="_blank"><img src="./assets/logos/samsung.png" alt=""></a></li>
+                <h1>INVITAN</h1>
+                <ul><!--LOGOS LINKEADOS-->
+                    <li><a href="https://www.coca-cola.com.ar/" target="_blank"><img src="./assets/logos/coca-cola.png" alt=""></a></li>
+                    <li><a href="https://www.burgerking.com.ar/" target="_blank"><img src="./assets/logos/burger-king.png" alt=""></a></li>
+                    <li><a href="https://www.samsung.com/ar/" target="_blank"><img src="./assets/logos/samsung.png" alt=""></a></li>
                 </ul>
             </section>
             <section><!--barra de navegacion del footer-->
-                <ul class="impactFuente noneStyleList d-flex justify-content-center flex-sm-column flex-md-row flex-xl-row text-center flex-column">
-                    <li class="animacion mx-3 fs-3"><a class="link-light" href="./index.html">INICIO</a></li>
-                    <li class="animacion mx-3 fs-3"><a class="link-light" href="./pages/tickets.html">TICKETS</a></li>
-                    <li class="animacion mx-3 fs-3"><a class="link-light" href="./pages/lineup.html">LINE-UP</a></li>
-                    <li class="animacion mx-3 fs-3"><a class="link-light" href="./pages/historia.html">HISTORIA</a></li>
-                    <li class="animacion mx-3 fs-3"><a class="link-light" href="./pages/contacto.html">CONTACTO</a></li>    
+                <ul>
+                    <li><a href="./index.html">INICIO</a></li>
+                    <li><a href="./pages/tickets.html">TICKETS</a></li>
+                    <li><a href="./pages/lineup.html">LINE-UP</a></li>
+                    <li><a href="./pages/historia.html">HISTORIA</a></li>
+                    <li><a href="./pages/contacto.html">CONTACTO</a></li>    
                 </ul>
             </section>
         </footer>
