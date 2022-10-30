@@ -1,6 +1,7 @@
 .bannerHistoria{
     background-image: url(../assets/banners/banner-historia.jpg);
     @include parllax-banner;
+    width: 100%;
     p{
         @include tipo-arch-black;
         font-size: 120px;

@@ -1,0 +1,113 @@
+@media(max-width: 768px)
+{
+    /*index.html*/
+    .bannerIndex{
+        div{
+            img{
+                width: 400px;
+            }
+        }
+    }
+    .novedadesIndex{
+        h1{
+            @include tipo-arch-black;
+        }
+        div{
+            article{
+                height: 300px;
+                width: 100%;
+                h2{
+                    @include tipo-arch-black;
+                    
+                }
+                p{
+                    @include tipo-radj; 
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .novedadesIndex{
+        h1{
+            @include tipo-arch-black;
+            
+        }
+        div{
+            article{
+                h2{
+                    @include tipo-arch-black;
+                    
+                }
+                p{
+                    @include tipo-radj; 
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    footer{
+        @include tipo-arch-black;
+        section{
+            ul{
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: rgb(255, 255, 255);
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .logoPublicidad a img{
+        height: 100px;
+    }
+    /*tickets.html*/
+    .bannerTickets{
+        background-image: url(../assets/banners/banner-tickets.jfif);
+        @include parllax-banner;
+        width: 100%;
+        p{
+            font-size: 100px;
+        }
+    }
+    .textTicketsTitle{
+        font-size: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    /*line-up.html*/
+    .oculto{
+        opacity: 1;
+    }
+    .bannerLineUp{
+        p{
+            font-size: 100px;
+        }
+    }
+    .diaAndStage{
+        font-size: 70px;
+    }
+    /*historia.html*/
+    .bannerHistoria{
+        p{
+            font-size: 100px;
+        }
+    }
+    /*contacto.html*/
+    .bannerContacto{
+        p{
+            font-size: 100px;
+        }
+    }
+    .secForms{
+        margin-left: 50px;
+        margin-right: 50px;
+        h1{
+            @include tipo-arch-black;
+        }
+    }
+    
+}

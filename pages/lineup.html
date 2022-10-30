@@ -10,23 +10,42 @@
     <link rel="shortcut icon" href="../assets/logos/rock-fest-favicon.png">
 </head>
 <body>
-    <header class="d-flex justify-content-between p-3">
-        <div><a href="../index.html"><img src="../assets/logos/rock-fest-s.png" alt=""></a></div>
-        <nav>
-            <ul  class="d-flex gap-3">
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="./tickets.html">TICKETS</a></li>
-                <li><a href="./lineup.html">LINE-UP</a></li>
-                <li><a href="./historia.html">HISTORIA</a></li>
-                <li><a href="./contacto.html">CONTACTO</a></li>
-            </ul>
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg m-3">
+            <div class="container-fluid">
+                <a href="../index.html">
+                    <img src="../assets/logos/rock-fest-s.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" style="background-color: #383838;" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button><!--barra de navegacion para responsive-->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav navFont fs-3">
+                        <li class="nav-item">
+                            <a class="nav-link active link-light" aria-current="page" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active link-light" aria-current="page" href="./tickets.html">TICKETS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active link-light" aria-current="page" href="./lineup.html">LINE-UP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active link-light" aria-current="page" href="./historia.html">HISTORIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active link-light" aria-current="page" href="./contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
         <section class="bannerLineUp d-flex align-items-center justify-content-center"><!--banner line-up-->
             <p class="text-center">LINE-UP</p>
         </section>
-        <section class="d-flex justify-content-center text-center my-5"><!--line-up-->
+        <section class="d-flex flex-row justify-content-center text-center my-5 flex-md-wrap"><!--line-up-->
             <div><!--viernes 3-->
                 <h1 class="diaAndStage fs-1">VIERNES 3</h1>
                 <div>

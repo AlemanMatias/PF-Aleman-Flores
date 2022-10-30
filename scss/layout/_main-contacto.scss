@@ -1,12 +1,15 @@
 .bannerContacto{
     background-image: url(../assets/banners/banner-contacto.jpg);
     @include parllax-banner;
+    width: 100%;
     p{
         @include tipo-arch-black;
         font-size: 120px;
     }
 }
 .secForms{
+    margin-left: 150px;
+    margin-right: 150px;
     h1{
         @include tipo-arch-black;
     }

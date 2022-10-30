@@ -10,20 +10,39 @@
     <link rel="shortcut icon" href="./assets/logos/rock-fest-favicon.png">
 </head>
     <body>
-        <header class="d-flex justify-content-between p-3">
-            <div><a href="./index.html"><img src="./assets/logos/rock-fest-s.png" alt=""></a></div>
-            <nav>
-                <ul class="d-flex gap-3">
-                    <li><a href="./index.html">INICIO</a></li>
-                    <li><a href="./pages/tickets.html">TICKETS</a></li>
-                    <li><a href="./pages/lineup.html">LINE-UP</a></li>
-                    <li><a href="./pages/historia.html">HISTORIA</a></li>
-                    <li><a href="./pages/contacto.html">CONTACTO</a></li>
-                </ul>
+        <header class="container-fluid">
+            <nav class="navbar navbar-expand-lg m-3 fuenteTabletNav">
+                <div class="container-fluid">
+                    <a href="./index.html">
+                        <img src="./assets/logos/rock-fest-s.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" style="background-color: #383838;" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button><!--barra de navegacion para responsive-->
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav fs-3">
+                            <li class="nav-item">
+                                <a class="nav-link active link-light" aria-current="page" href="./index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active link-light" aria-current="page" href="./pages/tickets.html">TICKETS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active link-light" aria-current="page" href="./pages/lineup.html">LINE-UP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active link-light" aria-current="page" href="./pages/historia.html">HISTORIA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active link-light" aria-current="page" href="./pages/contacto.html">CONTACTO</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
-        <main>
-            <section class="bannerIndex d-flex flex-column align-items-center justify-content-center "><!--banner principal-->
+        <main >
+            <section class="bannerIndex d-flex flex-column align-items-center justify-content-center container-fluid"><!--banner principal-->
                 <div>
                     <img src="./assets/logos/rock-fest-l.png" alt=""><!--LOGO DE BANNER PRINCIPAL-->
                 </div>
@@ -35,7 +54,7 @@
             </section>
             <section class="novedadesIndex my-5"><!--novedades-->
                 <h1 class="text-center my-3">NOVEDADES</h1>
-                <div class="d-flex align-items-center justify-content-center gap-5">
+                <div class="d-flex flex-xl-row align-items-center justify-content-center gap-5 flex-md-column">
                     <article class="d-flex flex-column novedades1 text-center justify-content-center">
                         <h2 class="mx-2">REVIVI EL ROCK FEST PARIS 2022</h2>
                         <p class="mx-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, deserunt, dolore dolorum pariatur corporis voluptatibus soluta consectetur </p>
@@ -51,10 +70,10 @@
                 </div>   
             </section>
         </main>
-        <footer>
+        <footer class="container-fluid">
             <section><!--sponsors-->
                 <h1 class="text-center">INVITAN</h1>
-                <ul class="d-flex justify-content-center"><!--LOGOS LINKEADOS-->
+                <ul class="d-flex justify-content-center container-fluid padClean"><!--LOGOS LINKEADOS-->
                     <li class="logoPublicidad"><a href="https://www.coca-cola.com.ar/" target="_blank"><img src="./assets/logos/coca-cola.png" alt=""></a></li>
                     <li class="logoPublicidad"><a href="https://www.burgerking.com.ar/" target="_blank"><img src="./assets/logos/burger-king.png" alt=""></a></li>
                     <li class="logoPublicidad"><a href="https://www.samsung.com/ar/" target="_blank"><img src="./assets/logos/samsung.png" alt=""></a></li>

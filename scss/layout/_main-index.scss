@@ -1,10 +1,14 @@
 .bannerIndex{
     background-image: url(../assets/banners/banner-index.jpg);
     @include parllax-banner;
+    width: 100%;
     div{
         p{
             @include tipo-radj;
-            font-size: 35px;
+            font-size: 30px;
+        }
+        img{
+            width: 570px;
         }
     }
 }
@@ -15,7 +19,7 @@
     div{
         article{
             height: 300px;
-            width: 30%;
+            width: 570px;
             h2{
                 @include tipo-arch-black;
                 
