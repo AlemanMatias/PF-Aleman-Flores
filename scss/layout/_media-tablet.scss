@@ -14,7 +14,7 @@
         }
         div{
             article{
-                height: 300px;
+                height: 400px;
                 width: 100%;
                 h2{
                     @include tipo-arch-black;
@@ -99,7 +99,7 @@
     /*contacto.html*/
     .bannerContacto{
         p{
-            font-size: 100px;
+            font-size: 0px;
         }
     }
     .secForms{

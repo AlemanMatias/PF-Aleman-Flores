@@ -21,12 +21,14 @@ header li {
 
 footer {
   font-family: 'Archivo Black', sans-serif; }
-  footer section ul li {
-    list-style: none; }
-    footer section ul li a {
-      text-decoration: none;
-      color: white;
-      font-size: 20px; }
+  footer section ul {
+    padding-left: 0; }
+    footer section ul li {
+      list-style: none; }
+      footer section ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px; }
 
 .logoPublicidad a img {
   height: 150px; }
@@ -189,7 +191,7 @@ footer {
   .novedadesIndex h1 {
     font-family: 'Archivo Black', sans-serif; }
   .novedadesIndex div article {
-    height: 300px;
+    height: 400px;
     width: 100%; }
     .novedadesIndex div article h2 {
       font-family: 'Archivo Black', sans-serif; }
@@ -241,9 +243,81 @@ footer {
     font-size: 100px; }
   /*contacto.html*/
   .bannerContacto p {
-    font-size: 100px; }
+    font-size: 0px; }
   .secForms {
     margin-left: 50px;
     margin-right: 50px; }
     .secForms h1 {
       font-family: 'Archivo Black', sans-serif; } }
+
+@media (max-width: 576px) {
+  /*index.html*/
+  .bannerIndex {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vh;
+    height: 820px;
+    width: 100%;
+    height: 600px; }
+    .bannerIndex div p {
+      font-size: 30px; }
+    .bannerIndex div img {
+      display: none; }
+  .novedadesIndex h1 {
+    font-family: 'Archivo Black', sans-serif; }
+  .novedadesIndex div article {
+    height: 400px;
+    width: 100%; }
+    .novedadesIndex div article h2 {
+      font-family: 'Archivo Black', sans-serif; }
+    .novedadesIndex div article p {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 20px; }
+  /*tickets.html*/
+  .bannerTickets {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vh;
+    height: 820px;
+    height: 600px;
+    width: 100%; }
+    .bannerTickets p {
+      font-size: 80px; }
+  .ticketsInfo div {
+    height: 250px;
+    width: 500px; }
+    .ticketsInfo div h2 {
+      margin-top: 20px;
+      font-size: 35px; }
+    .ticketsInfo div p {
+      margin-left: 20px;
+      margin-right: 20px;
+      font-size: 26px; }
+  .pressInfo {
+    width: 500px;
+    height: 200px; }
+    .pressInfo h2 {
+      margin-top: 20px;
+      font-size: 45px; }
+  /*lineup.html*/
+  .bannerLineUp {
+    width: 100%; }
+    .bannerLineUp p {
+      font-size: 80px; }
+  /**historia.html**/
+  .bannerHistoria {
+    width: 100%; }
+    .bannerHistoria p {
+      font-size: 80px; }
+  /*contacto.html*/
+  .bannerContacto {
+    width: 100%; }
+    .bannerContacto p {
+      font-size: 80px; }
+  .secForms {
+    margin-left: 10px;
+    margin-right: 10px; } }

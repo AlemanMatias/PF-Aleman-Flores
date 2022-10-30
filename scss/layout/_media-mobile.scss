@@ -1,0 +1,97 @@
+@media(max-width: 576px)
+{
+    /*index.html*/
+    .bannerIndex{
+        @include parllax-banner;
+        width: 100%;
+        height: 600px;
+        div{
+            p{
+                font-size: 30px;
+            }
+            img{
+                display: none;
+            }
+        }
+    }
+    .novedadesIndex{
+        h1{
+            @include tipo-arch-black;
+        }
+        div{
+            article{
+                height: 400px;
+                width: 100%;
+                h2{
+                    @include tipo-arch-black;
+                    
+                }
+                p{
+                    @include tipo-radj; 
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    /*tickets.html*/
+    .bannerTickets{
+        @include parllax-banner;
+        height: 600px;
+        width: 100%;
+        p{
+            font-size: 80px;
+        }
+    }
+    .ticketsInfo{
+        div{
+            height: 250px;
+            width: 500px;
+            h2{
+                margin-top: 20px;
+                font-size: 35px;
+            }
+            p{
+                margin-left: 20px;
+                margin-right: 20px;
+                font-size: 26px;
+            }
+        }
+    }
+    .pressInfo{
+        width: 500px;
+        height: 200px;
+        h2{
+            margin-top: 20px;
+            font-size: 45px;
+        }
+    }
+    /*lineup.html*/
+    .bannerLineUp{
+        width: 100%;
+        p{
+            font-size: 80px;
+        }
+    }
+    /**historia.html**/
+    .bannerHistoria{
+        width: 100%;
+        p{
+            font-size: 80px;
+        }
+    }
+    /*contacto.html*/
+    .bannerContacto{
+        width: 100%;
+        p{
+            font-size: 80px;
+        }
+    }
+    .secForms{
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+    
+
+
+}
