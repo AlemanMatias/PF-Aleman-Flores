@@ -12,6 +12,10 @@ body {
   background-attachment: fixed;
   color: white; }
 
+.animacion:hover {
+  transform: scale(1.05);
+  transition: transform 100ms 0s; }
+
 header li {
   list-style: none; }
   header li a {
@@ -43,6 +47,8 @@ footer {
   height: 820px;
   width: 100%; }
   .bannerIndex div p {
+    position: relative;
+    bottom: 50px;
     font-family: 'Rajdhani', sans-serif;
     font-size: 30px; }
   .bannerIndex div img {
@@ -91,7 +97,7 @@ footer {
 
 .ticketsInfo div {
   height: 250px;
-  width: 700px; }
+  width: 570px; }
   .ticketsInfo div h2 {
     margin-top: 20px;
     font-family: 'Archivo Black', sans-serif;
@@ -227,6 +233,16 @@ footer {
     width: 100%; }
     .bannerTickets p {
       font-size: 100px; }
+  .ticketsInfo div {
+    height: 250px;
+    width: 500px; }
+    .ticketsInfo div h2 {
+      margin-top: 20px;
+      font-size: 35px; }
+    .ticketsInfo div p {
+      margin-left: 20px;
+      margin-right: 20px;
+      font-size: 26px; }
   .textTicketsTitle {
     font-size: 30px;
     margin-left: 20px;

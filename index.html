@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <meta name="description"content="El Rock fest es el festival de rock mas grande del mundo.Cada año se elige una sede en la cual se desarrollara el festival.Este año le toca a Buenos Aires">
+    <meta name="author" content="Matias Aleman">
+    <title>Home | Rock-Fest</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./assets/logos/rock-fest-favicon.png">
@@ -14,7 +16,7 @@
             <nav class="navbar navbar-expand-lg m-3 fuenteTabletNav">
                 <div class="container-fluid">
                     <a href="./index.html">
-                        <img src="./assets/logos/rock-fest-s.png" alt="">
+                        <img class="animacion" src="./assets/logos/rock-fest-s.png" alt="logo-rock-fest-pequeño">
                     </a>
                     <button class="navbar-toggler" type="button" style="background-color: #383838;" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -22,19 +24,19 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                         <ul class="navbar-nav fs-3">
                             <li class="nav-item">
-                                <a class="nav-link active link-light" aria-current="page" href="./index.html">INICIO</a>
+                                <a class="nav-link active link-light animacion" aria-current="page" href="./index.html">INICIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active link-light" aria-current="page" href="./pages/tickets.html">TICKETS</a>
+                                <a class="nav-link active link-light animacion" aria-current="page" href="./pages/tickets.html">TICKETS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active link-light" aria-current="page" href="./pages/lineup.html">LINE-UP</a>
+                                <a class="nav-link active link-light animacion" aria-current="page" href="./pages/lineup.html">LINE-UP</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active link-light" aria-current="page" href="./pages/historia.html">HISTORIA</a>
+                                <a class="nav-link active link-light animacion" aria-current="page" href="./pages/historia.html">HISTORIA</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active link-light" aria-current="page" href="./pages/contacto.html">CONTACTO</a>
+                                <a class="nav-link active link-light animacion" aria-current="page" href="./pages/contacto.html">CONTACTO</a>
                             </li>
                         </ul>
                     </div>
@@ -44,7 +46,7 @@
         <main >
             <section class="bannerIndex d-flex flex-column align-items-center justify-content-center container-fluid"><!--banner principal-->
                 <div>
-                    <img src="./assets/logos/rock-fest-l.png" alt=""><!--LOGO DE BANNER PRINCIPAL-->
+                    <img src="./assets/logos/rock-fest-l.png" alt="logo-rock-fest-grande"><!--LOGO DE BANNER PRINCIPAL-->
                 </div>
                 <div class="text-center">
                     <p>BUENOS AIRES 2023</p>
@@ -54,7 +56,7 @@
             </section>
             <section class="novedadesIndex my-5"><!--novedades-->
                 <h1 class="text-center my-3">NOVEDADES</h1>
-                <div class="d-flex flex-xl-row align-items-center justify-content-center gap-5 flex-md-column flex-sm-column">
+                <div class="d-flex flex-column flex-xl-row align-items-center justify-content-center gap-5 flex-md-column flex-sm-column">
                     <article class="d-flex flex-column novedades1 text-center justify-content-center">
                         <h2 class="mx-2">REVIVI EL ROCK FEST PARIS 2022</h2>
                         <p class="mx-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, deserunt, dolore dolorum pariatur corporis voluptatibus soluta consectetur </p>
@@ -74,18 +76,18 @@
             <section><!--sponsors-->
                 <h1 class="text-center">INVITAN</h1>
                 <ul class="d-flex justify-content-center container-fluid padClean"><!--LOGOS LINKEADOS-->
-                    <li class="logoPublicidad"><a href="https://www.coca-cola.com.ar/" target="_blank"><img src="./assets/logos/coca-cola.png" alt=""></a></li>
-                    <li class="logoPublicidad"><a href="https://www.burgerking.com.ar/" target="_blank"><img src="./assets/logos/burger-king.png" alt=""></a></li>
-                    <li class="logoPublicidad"><a href="https://www.samsung.com/ar/" target="_blank"><img src="./assets/logos/samsung.png" alt=""></a></li>
+                    <li class="logoPublicidad animacion"><a href="https://www.coca-cola.com.ar/" target="_blank"><img src="./assets/logos/coca-cola.png" alt=""></a></li>
+                    <li class="logoPublicidad animacion"><a href="https://www.burgerking.com.ar/" target="_blank"><img src="./assets/logos/burger-king.png" alt=""></a></li>
+                    <li class="logoPublicidad animacion"><a href="https://www.samsung.com/ar/" target="_blank"><img src="./assets/logos/samsung.png" alt=""></a></li>
                 </ul>
             </section>
             <section><!--barra de navegacion del footer-->
-                <ul class="d-flex flex-xl-row gap-4 justify-content-center flex-md-row flex-sm-column align-items-sm-center">
-                    <li><a href="./index.html">INICIO</a></li>
-                    <li><a href="./pages/tickets.html">TICKETS</a></li>
-                    <li><a href="./pages/lineup.html">LINE-UP</a></li>
-                    <li><a href="./pages/historia.html">HISTORIA</a></li>
-                    <li><a href="./pages/contacto.html">CONTACTO</a></li>    
+                <ul class="d-flex flex-xl-row gap-4 justify-content-center flex-md-row flex-sm-column align-items-sm-center m-3">
+                    <li class="animacion"><a class="link-light" href="./index.html">INICIO</a></li>
+                    <li class="animacion"><a class="link-light" href="./pages/tickets.html">TICKETS</a></li>
+                    <li class="animacion"><a class="link-light" href="./pages/lineup.html">LINE-UP</a></li>
+                    <li class="animacion"><a class="link-light" href="./pages/historia.html">HISTORIA</a></li>
+                    <li class="animacion"><a class="link-light" href="./pages/contacto.html">CONTACTO</a></li>    
                 </ul>
             </section>
         </footer>
