@@ -131,19 +131,22 @@ footer {
   font-family: 'Rajdhani', sans-serif;
   font-size: 50px; }
 
+.logoBand {
+  width: 450px; }
+
 .band2 {
   font-family: 'Archivo Black', sans-serif; }
   .band2 li h1 {
-    font-size: 80px; }
+    font-size: 60px; }
   .band2 li h2 {
-    font-size: 50px; }
+    font-size: 40px; }
 
 .band3 {
   font-family: 'Archivo Black', sans-serif; }
   .band3 li h2 {
-    font-size: 50px; }
+    font-size: 40px; }
   .band3 li h3 {
-    font-size: 30px; }
+    font-size: 35px; }
 
 .estiloLista li {
   list-style: none; }
@@ -243,6 +246,12 @@ footer {
       margin-left: 20px;
       margin-right: 20px;
       font-size: 26px; }
+  .pressInfo {
+    height: 250px;
+    width: 500px; }
+    .pressInfo h2 {
+      margin-top: 20px;
+      font-size: 45px; }
   .textTicketsTitle {
     font-size: 30px;
     margin-left: 20px;
@@ -254,6 +263,8 @@ footer {
     font-size: 100px; }
   .diaAndStage {
     font-size: 70px; }
+  .logoBand {
+    width: 370px; }
   /*historia.html*/
   .bannerHistoria p {
     font-size: 100px; }
@@ -302,10 +313,10 @@ footer {
     height: 600px;
     width: 100%; }
     .bannerTickets p {
-      font-size: 80px; }
+      font-size: 50px; }
   .ticketsInfo div {
-    height: 250px;
-    width: 500px; }
+    height: 400px;
+    width: 280px; }
     .ticketsInfo div h2 {
       margin-top: 20px;
       font-size: 35px; }
@@ -314,26 +325,40 @@ footer {
       margin-right: 20px;
       font-size: 26px; }
   .pressInfo {
-    width: 500px;
-    height: 200px; }
+    height: 250px;
+    width: 280px; }
     .pressInfo h2 {
       margin-top: 20px;
       font-size: 45px; }
   /*lineup.html*/
+  .logoBand {
+    width: 250px; }
   .bannerLineUp {
     width: 100%; }
     .bannerLineUp p {
-      font-size: 80px; }
+      font-size: 50px; }
+  .oculto {
+    opacity: 1; }
+  .diaAndStage {
+    font-size: 50px; }
+  .band2 li h1 {
+    font-size: 40px; }
+  .band2 li h2 {
+    font-size: 30px; }
+  .band3 li h2 {
+    font-size: 30px; }
+  .band3 li h3 {
+    font-size: 25px; }
   /**historia.html**/
   .bannerHistoria {
     width: 100%; }
     .bannerHistoria p {
-      font-size: 80px; }
+      font-size: 50px; }
   /*contacto.html*/
   .bannerContacto {
     width: 100%; }
     .bannerContacto p {
-      font-size: 80px; }
+      font-size: 40px; }
   .secForms {
     margin-left: 10px;
     margin-right: 10px; } }

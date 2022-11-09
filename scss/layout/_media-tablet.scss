@@ -88,6 +88,14 @@
             }
         }
     }
+    .pressInfo{
+        height: 250px;
+        width: 500px;
+        h2{
+            margin-top: 20px;
+            font-size: 45px;
+        }
+    }
     .textTicketsTitle{
         font-size: 30px;
         margin-left: 20px;
@@ -104,6 +112,9 @@
     }
     .diaAndStage{
         font-size: 70px;
+    }
+    .logoBand{
+        width: 370px;
     }
     /*historia.html*/
     .bannerHistoria{
