@@ -16,6 +16,10 @@ body {
   transform: scale(1.05);
   transition: transform 100ms 0s; }
 
+.animacion2:hover {
+  transform: scale(1.2);
+  transition: transform 100ms 0s; }
+
 header li {
   list-style: none; }
   header li a {
@@ -36,6 +40,12 @@ footer {
 
 .logoPublicidad a img {
   height: 150px; }
+
+.fontInfo {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 15px; }
+  .fontInfo li a {
+    font-size: 15px; }
 
 .bannerIndex {
   background-image: url(../assets/banners/banner-index.jpg);
