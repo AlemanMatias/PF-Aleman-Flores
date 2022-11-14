@@ -15,7 +15,7 @@
 
 .ticketsInfo{
         div{
-            height: 250px;
+            height: 300px;
             width: 570px;
             h2{
                 margin-top: 20px;
@@ -26,13 +26,16 @@
                 @include tipo-radj;
                 font-size: 30px;
             }
+            button{
+                @include tipo-arch-black;
+            }
         }
 }
 
 .pressInfo{
     @include tipo-arch-black;
     width: 600px;
-    height: 200px;
+    height: 150px;
     h2{
         margin-top: 20px;
         font-size: 45px;

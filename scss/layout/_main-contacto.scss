@@ -14,3 +14,11 @@
         @include tipo-arch-black;
     }
 }
+.mapContacto{
+    margin-bottom: 60px;
+    div{
+        @include tipo-arch-black;
+        font-size: 40px;
+        width: 500px;
+    }
+}

@@ -106,7 +106,7 @@ footer {
     font-size: 120px; }
 
 .ticketsInfo div {
-  height: 250px;
+  height: 300px;
   width: 570px; }
   .ticketsInfo div h2 {
     margin-top: 20px;
@@ -115,11 +115,13 @@ footer {
   .ticketsInfo div p {
     font-family: 'Rajdhani', sans-serif;
     font-size: 30px; }
+  .ticketsInfo div button {
+    font-family: 'Archivo Black', sans-serif; }
 
 .pressInfo {
   font-family: 'Archivo Black', sans-serif;
   width: 600px;
-  height: 200px; }
+  height: 150px; }
   .pressInfo h2 {
     margin-top: 20px;
     font-size: 45px; }
@@ -202,6 +204,13 @@ footer {
   margin-right: 150px; }
   .secForms h1 {
     font-family: 'Archivo Black', sans-serif; }
+
+.mapContacto {
+  margin-bottom: 60px; }
+  .mapContacto div {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+    width: 500px; }
 
 @media (max-width: 768px) {
   /*index.html*/
